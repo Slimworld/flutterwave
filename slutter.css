@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 25rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dpbox{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dpbox .bi{
+   margin: 10px;
+}
+.dp2box{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dp3box{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dp-ft{
+    display: flex;
+    gap: 25px;
+}
+.dp-sd{
+    display: flex;
+    gap: 25px;
+}
+.dp-th{
+    display: flex;
+    gap: 25px;
+}
+nav img{
+width: 20%;
+}
+.nav h3{
+    margin-top: 7px;
+}
+.nav p{
+   font-weight: 900;
+    font-family: moderat;
+    font-size: large;
+}
+nav  button{
+   width: 130px;
+   height: 40px;
+   margin-left: 90px;
+   border-radius: 10px;
+   border: none;
+}
+nav .listIcon{
+    display: none;
+}
+#heroPage .text h3{
+font-family: millik;
+}
+#heroPage{
+    max-width: 100%;
+}
+.herowrap{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.herowrap .text h3{
+   font-family: millik; 
+    font-size: 6rem;
+}
+.herowrap .text p{
+    font-family: moderat;
+    font-size: 1.5rem;
+    width: 80%;
+    line-height: 25px;
+}
+.herowrap .text button{
+    width: 120px;
+    height: 60px;
+}
+.herowrap .images img{
+    width: 600px;
+}
+#collectPayment{
+    max-width: 100%;
+    background-color: #F8FAFD;
+}
+.collectWrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #f8fafd;
+}
+#collectPayment #text{
+    font-family: moderat;
+    margin-top: 10rem;
+}
+#collectPayment #text h2{
+     font-size: 5rem;
+}
+#collectPayment #box{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #35a162;
+}
+#box3{
+    width: 25px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #35a162;
+}
+.collectWrapper .list{
+    display: flex;
+    gap: 3rem;
+}
+.collectWrapper .textList{
+    margin-left: 2rem;
+}
+.collectwrap{
+    margin-top: 9rem;
+}
+.collectwrap button{
+    background-color: rgba(3, 9, 98, 0.6);
+    margin-top: 5rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+}
+#collectPayment .CreatePayment{
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: #f8fafd;
+}
+.CreatePayment img{
+    margin-left: -10%;
+}
+.collectWrapper .paylink{
+    display: flex;
+}
+#free .text h3{
+    font-size: 5rem;
+    margin-top: 9rem;
+}
+#safety .text h2{
+    font-size: 6rem;
+    font-family: millik;
+    font-weight: bolder;
+    margin-top: 9rem;
+}
+#safety .text p{
+    font-size: 1.5rem;
+}
+.safetyText .txt1 p:nth-child(1){
+    font-weight: bold;
+}
+.safetyText .txt2 p:nth-child(1){
+    font-weight: bold;
+}
+.safetyText{
+    display: flex;
+   gap: 15rem;
+}
+#boxlg{
+    margin: 10%;
+    padding: 8%;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px rgb(173, 165, 165)
+}
+#boxlg .boxwrap h3{
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-family: millik;
+    font-weight: bold;
+}
+#boxlg .boxwrap p{
+    font-size: 1.5rem;
+}
+#boxlg .boxwrap button{
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+#boxlg .boxwrap span{
+    margin-left: 3rem;
+}
+.group{
+    max-width: 100%;
+}
+.group .ft_group{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    gap: 5rem;
+}
+hr{ 
+    max-width: 85%;
+    margin: 0 auto;
+}
+.dp100{
+    max-width: 100%;
+}
+.droptxt{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown2{
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+.dropdown2:hover .droptxt {
+    background-color: #3e8e41;
+}

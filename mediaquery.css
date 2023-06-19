@@ -1,0 +1,38 @@
+@media (max-width: 900px){
+    #navwrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .dropdown{
+        display: none;
+    }
+    ul ,li{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    nav .listIcon{
+        display: block;
+    }
+}
+@media(max-width: 1113px){
+    #heroPage{
+        
+    }
+    .herowrap{
+        display: block;
+    }
+}
+@media(max-width: 788px){
+    .safetyText{
+        display: block;
+    }
+}
+@media(max-width: 900px){
+    #collectPayment .paylink{
+        display: block;
+        margin-left: -9rem;
+        overflow: hidden;
+    }
+}

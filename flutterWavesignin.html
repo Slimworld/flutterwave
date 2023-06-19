@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flutterwave</title>
+    <link rel="stylesheet" href="./bootstrap.bundle.js">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(./image/flutterwave\ bg.svg);
+        }
+        nav img{
+            width: 45px;
+        }
+        nav span{
+            font-size: 2rem;
+            font-family: moderat;
+        }
+        .box{
+            margin-top: 10rem;
+            margin-left: 7rem;
+            height: 45%;
+            width: 25%;
+            border-radius: 10px;
+        }
+        div h3{
+           margin: 30px;
+        }
+        .box input{
+            margin: 10px;
+            height: 40px;
+            width: 18rem;
+            margin-left: 20px;
+        }
+        button{
+            background-color: darkorange;
+            width: 18rem;
+            height: 40px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+        a{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="d-flex justify-content-between p-4">
+             <span><img src="./image/flutter icon.png" alt="">flutterwave</span>
+             <button class="btn bg-warning">Create account</button>
+        </div>
+    </nav>
+    <section class="box bg-white">
+        <div>
+            <h3>Login to your account</h3>
+            <form action="">
+                <input  type="email" placeholder="Email address ">
+                <br>
+                <input  type="password" placeholder="Password">
+                <br >
+                <button class="mt-3">Login</button>
+            </form>
+        </div>
+        <br>
+        <a href="#" class="text-decoration-none text-primary m-4 ">Forgot password</a>
+        
+    </section>
+</body>
+</html>

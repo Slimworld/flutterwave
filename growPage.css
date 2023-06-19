@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dpbox{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dpbox .bi{
+   margin: 10px;
+}
+.dp2box{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dp3box{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.dp-ft{
+    display: flex;
+    gap: 25px;
+}
+.dp-sd{
+    display: flex;
+    gap: 25px;
+}
+.dp-th{
+    display: flex;
+    gap: 25px;
+}
+nav img{
+width: 20%;
+}
+nav p{
+   font-weight: 900;
+    font-family: moderat;
+    font-size: large;
+}
+nav  button{
+   width: 130px;
+   height: 40px;
+   margin-left: 90px;
+   border-radius: 10px;
+   border: none;
+}
+nav .listIcon{
+    display: none;
+}
+#heroPage{
+    max-width: 100%;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.container  h3{
+   font-family: millik; 
+    font-size: 6rem;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 6rem;
+}
+.container  p{
+    font-family: moderat;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+.container  button{
+    width: 120px;
+    height: 60px;
+    margin-top: 2rem;
+    margin: 1rem;
+}
+.bigImage{
+    max-width: 100%;
+}
+.imagewrap{
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.feature{
+    max-width: 100%;
+    margin-top: 12rem;
+}
+.featurewrap{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.featurewrap .ftxt{
+    width: 32%;
+}
+.featurewrap h3{
+    margin-top: 3rem;
+}
+#collectPayment{
+    max-width: 100%;
+    background-color: #F8FAFD;
+}
+.collectWrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #f8fafd;
+    margin-top: 10rem;
+}
+#collectPayment #text{
+    margin-top: 10rem;
+    width: 50%;
+}
+#collectPayment #text h2{
+     font-size: 5.5rem;
+     font-family: millik;
+     font-weight: bolder;
+}
+#collectPayment #box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #35a162;
+}
+.collectWrapper .list{
+    display: flex;
+    gap: 3rem;
+}
+.collectWrapper .textList{
+    margin-left: 0.5rem;
+}
+.collectwrap{
+    margin-top: 2rem;
+}
+.collectwrap button{
+    background-color: rgba(3, 9, 98, 0.6);
+    margin-top: 5rem;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+}
+#collectPayment .CreatePayment{
+    background-color: #ffffff;
+    box-shadow: #f8fafd;
+}
+.CreatePayment img{
+    margin-left: -10%;
+}
+.collectWrapper .paylink{
+    display: flex;
+}
+#fee{
+    max-width: 100%;
+    background-color: #f8fafd;
+}
+#free .freewrap{
+    max-width: 80%;
+    margin: 0 auto;
+}
+#free .text h3{
+    font-size: 5rem;
+    margin-top: 9rem;
+    width: 70%;
+    font-weight: bolder;
+}
+#free .text p{
+    width: 50%;
+    margin-top: 2rem;
+}
+.freewrap img{
+    overflow: hidden;
+    width: 90%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+#safety .text h2{
+    font-size: 6rem;
+    font-family: millik;
+    font-weight: bolder;
+    margin-top: 9rem;
+}
+#safety .text p{
+    font-size: 1.5rem;
+    margin-left: 8px;
+}
+.safetyText .boxtext{
+    height: 40px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: #35a162;
+}
+.safetyText h4{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+.safetyText p{
+    font-size: 1rem;
+    width: 100%;
+    margin-left: -1.5rem;
+    margin-top: -1rem;
+}
+.safetyText{
+    display: flex;
+    justify-content: space-between;
+}
+#boxlg{
+    margin: 10%;
+    padding: 8%;
+    border-radius: 20px;
+    box-shadow: 10px 15px 10px rgb(173, 165, 165)   
+}
+#boxlg .boxwrap h3{
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-family: millik;
+    font-weight: bold;
+}
+#boxlg .boxwrap p{
+    font-size: 1.5rem;
+}
+#boxlg .boxwrap button{
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.boxwrap input{
+    width: 60%;
+    height: 10%;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+.group{
+    max-width: 100%;
+}
+.group .ft_group{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    gap: 5rem;
+}
+hr{ 
+    max-width: 85%;
+    margin: 0 auto;
+}
+.dp100{
+    max-width: 100%;
+}
+.droptxt{
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown2{
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+.dropdown2:hover .droptxt {
+    background-color: #3e8e41;
+}
